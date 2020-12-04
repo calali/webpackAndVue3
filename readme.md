@@ -14,17 +14,19 @@ webpack5 +vue3搭建项目
     测试环境有sourceTree
     线上环境没有
 4. 支持stylus、img等loader
-5. 支持ts
-6. 支持tree-shaking
+5. 支持ts、eslint
+6. 支持tree-shaking[还没做]
 
 
 
 ### 问题
 
 ### todo
+1把vue.js和业务代码分开打包
 
-3/5/6
-warnings
+
+3线上和开发环境2个配置
+
 
 
 
@@ -32,3 +34,4 @@ warnings
 1. https://bbs.huaweicloud.com/blogs/183533
 2. https://github.com/vuejs/vue-loader
 3. https://www.webpackjs.com/concepts/
+4. https://juejin.cn/post/6844904166041600014
