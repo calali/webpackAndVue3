@@ -10,24 +10,9 @@ webpack5 +vue3搭建项目
     需要vue-loader、babel-loader等相关的解析器解析js和vue文件。
     需要style-loader、css-loader解析css文件。
 2. 支持本地开发调试webpack-dev-server，自动打开页面
-3. 支持不同环境的打包配置
-    测试环境有sourceTree
-    线上环境没有
-4. 支持stylus、img等loader
-5. 支持ts、eslint
-6. 支持tree-shaking[还没做]
-
-
-
-### 问题
-
-### todo
-1把vue.js和业务代码分开打包
-
-
-3线上和开发环境2个配置
-
-
+3.支持stylus、img等loader
+4.支持ts、eslint
+5.支持不同环境的打包配置
 
 
 ### 参考资料

@@ -1,18 +1,16 @@
-const path = require('path');
+const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+
 module.exports = {
     entry: {
-        app: path.join(__dirname, './src/main.ts'),
+        app: path.join(__dirname, '../src/main.ts'),
         vendor: ['vue']
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js',
-    },
-    devServer: {
-       contentBase: './dist',
-       open:true,
-       useEslint: true,
+        filename: '[name].[hash:8].js',
     },
     module: {
         rules: [
@@ -63,6 +61,10 @@ module.exports = {
         ]
     },
     plugins: [
+        new HtmlWebpackPlugin({
+            filename:'index.html',
+            template: path.join(__dirname, '../src/index.html'),
+        }),
         new VueLoaderPlugin()
     ]
 };
