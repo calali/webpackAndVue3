@@ -5,13 +5,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     entry: {
+        //webpack构建的入口文件
         app: path.join(__dirname, '../src/main.ts'),
+        //把框架代码和业务代码分开打包
         vendor: ['vue']
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[hash:8].js',
+        //打包后的文件的存放位置
+        path: path.resolve(__dirname, '../dist'),
+        // https://webpack.js.org/configuration/output/#outputfilename
+        filename: '[name].[fullhash].js',
     },
+    // https://webpack.js.org/configuration/module/#rule
     module: {
         rules: [
             {
