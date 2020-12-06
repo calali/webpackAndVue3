@@ -15,7 +15,7 @@ export default defineComponent({
 })
 </script>
 
-<style>
+<style lang="stylus">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,9 +24,6 @@ export default defineComponent({
   color: red;
   margin-top: 60px;
 }
-</style>
-
-<style lang="stylus">
 .logo
   width 100px
   height 100px
