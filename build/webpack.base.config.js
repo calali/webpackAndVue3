@@ -35,15 +35,16 @@ module.exports = {
                 test: /\.js$/,
                 use: {
                     loader: 'babel-loader',//将es6+转为es5
-                    options: {
-                        presets: [
-                            ['env', {
-                                targets: {
-                                    browsers: ['> 1%', 'last 2 versions']
-                                }
-                            }]
-                        ]
-                    }
+                    // options: {
+                    //     presets: ['es2015']
+                    //     // presets: [
+                    //     //     ['env', {
+                    //     //         targets: {
+                    //     //             browsers: ['> 1%', 'last 2 versions']
+                    //     //         }
+                    //     //     }]
+                    //     // ]
+                    // }
                 },
                 include: [path.resolve(__dirname, '../src')],
                 exclude: '/node_modules/'
