@@ -1,5 +1,5 @@
 <template>
-  <div>我是app.vue文件</div>
+  <div>我是app.vue文asfafdasdfsf件</div>
   <img alt="Vue logo" class="logo" src="./assets/logo.png" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
