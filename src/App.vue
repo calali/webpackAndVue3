@@ -1,16 +1,16 @@
 <template>
-  <div>我是app.vue文asfafdasdfsf件</div>
+  <div>我是app.vue文件,这是sdf首页入口</div>
   <img alt="Vue logo" class="logo" src="./assets/logo.png" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
 
 <script lang="ts">
-// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'App',
   components: {
-    // HelloWorld,
+    HelloWorld,
   },
 })
 </script>

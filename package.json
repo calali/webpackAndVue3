@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-cli serve --config ./build/webpack.dev.config.js",
+    "start": "webpack-cli serve --config ./build/webpack.dev.config.js --hot",
     "build": "webpack --config ./build/webpack.prod.config.js"
   },
   "keywords": [],

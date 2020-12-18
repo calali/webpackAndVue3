@@ -13,6 +13,7 @@ module.exports = {
     output: {
         //打包后的文件的存放位置
         path: path.resolve(__dirname, '../dist'),
+
         // https://webpack.js.org/configuration/output/#outputfilename
         filename: '[name].[fullhash].js',
     },
