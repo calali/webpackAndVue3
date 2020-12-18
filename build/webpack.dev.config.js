@@ -9,9 +9,9 @@ module.exports = merge(base, {
     mode: 'development',
     devServer: {
         contentBase: path.resolve(__dirname, '../dist'),
-        publicPath: '/',
+        // publicPath: '/',
         //端口号
-        port: '8080',
+        port: '8081',
         // https://webpack.js.org/configuration/dev-server/#devserverinline
         // https://segmentfault.com/a/1190000014141798
         inline: true,
